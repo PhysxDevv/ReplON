@@ -12,9 +12,10 @@
 - In your main.py file, add these lines (TOP OF FILE!):
 ```
 from rePatchDevReplON import ReplON
-import os
-
 ReplON("API KEY HERE").activate()
 ```
 
 Thats it! Thanks for using ReplON.
+
+### EXTRAS:
+- ReplON("API KEY HERE").getMonitors() # Gets your Monitors.
